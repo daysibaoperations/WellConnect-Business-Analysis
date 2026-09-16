@@ -2,9 +2,9 @@
 
 ## Overview
 
-Business analysis project focused on customer complaints, service performance, discounts, and operational patterns.
+WellConnect is a Business Analysis portfolio project focused on analyzing customer complaints, service performance, discounts, and operational patterns.
 
-The analysis uses service and complaint data to identify relevant patterns, translate data into business insights, and develop recommendations.
+The analysis uses service and complaint data to identify relevant patterns, translate findings into business insights, and develop actionable recommendations.
 
 ## Business Objective
 
@@ -20,7 +20,8 @@ The analysis focuses on:
 - Discounts and complaints
 - Geographic patterns
 - Key Performance Indicators (KPIs)
-- Root cause analysis
+- Root Cause Analysis
+- 5 Whys
 
 ## Key Findings
 
@@ -28,7 +29,7 @@ One of the main findings identified in the analysis was:
 
 > 100% of services with a discount generated a complaint, compared with 6.74% of services without a discount.
 
-This finding was further explored to understand the potential relationship between discounts and customer complaints.
+This finding was explored further to understand the potential relationship between discounts and customer complaints.
 
 Additional findings include patterns in complaints by service and geographic area.
 
@@ -41,7 +42,12 @@ The analysis resulted in business recommendations focused on:
 - Monitoring complaint patterns by geographic area
 - Using KPIs to support ongoing service performance monitoring
 
-## Tools
+## Project Deliverables
+
+- [Business Analysis Portfolio — Excel](./Excel/WellConnect_%20Business%20Analysis%20Portfolio.xlsx)
+- [Business Analysis Presentation — PDF](./Presentation/)
+
+## Tools & Techniques
 
 - Microsoft Excel
 - Data Analysis
@@ -50,13 +56,15 @@ The analysis resulted in business recommendations focused on:
 - Root Cause Analysis
 - 5 Whys
 
-## Project Deliverables
+## Project Structure
 
-- Business Analysis Portfolio — Excel
-- Business Analysis Presentation — PDF
-- Business Findings
-- Business Recommendations
-
-## Disclaimer
-
-This project is part of a Business Analysis portfolio and is intended for learning and professional demonstration purposes.
+```text
+WellConnect-Business-Analysis
+│
+├── Excel/
+│   └── WellConnect_ Business Analysis Portfolio.xlsx
+│
+├── Presentation/
+│   └── Business Analysis Presentation.pdf
+│
+└── README.md
